@@ -1,0 +1,38 @@
+p{
+    color: green;
+    font-size: 20px;
+    line-height: 25px; /* espacio interlinea*/
+}
+h1{
+    color: red;
+    background-color: yellow;
+}
+
+/* Creación de Clases */
+.destacados{
+    color: blue;
+    font-weight: bold; /* negrita*/
+    font-style: italic;
+}
+
+/* Div caja contenedoras unicas */
+#aqua{
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+    padding: 20px; /* suma ancho a la caja para tener distancia con el texto */
+    box-sizing: border-box; /* adapta el texto si se va cambiando de tamaño la pagina */
+    margin-left: 50px; /* margen izquierdo de la caja */
+    margin-top: 50px;
+    border: 2px solid black;
+    
+}
+
+#rojo{
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    margin: 0 auto; /* centra en el medio dinamicamente */
+    border-right: 5px dashed black;
+    padding: 10px;
+}
