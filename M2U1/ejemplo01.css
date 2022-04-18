@@ -1,0 +1,48 @@
+/* Machete de la pagina fonts
+font-family: 'Grape Nuts', cursive;
+font-family: 'Oswald', sans-serif;
+*/
+
+h2{
+    color: red;
+    font-family: 'Grape Nuts', cursive;
+    font-size: 50px;
+}
+.caja {
+    width: 600px;
+    height: 300px;
+    /*background-color: yellow;*/
+    margin: 100px;
+    background: #278df6;
+    background: linear-gradient(175deg, #278df6 0%, #00aa98 80%);
+    background: -webkit-linear-gradient(175deg, #278df6 0%, #00aa98 80%);
+    background: -moz-linear-gradient(175deg, #278df6 0%, #00aa98 80%);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    /*mantiene el tañano de la caja*/
+    /*border-radius: 20px;*/
+    /*border-radius: 20px 0 20px 50px;*/
+    /*border-radius: 0px 200px 200px 200px;
+    -webkit-border-radius: 0px 200px 200px 200px;
+    -moz-border-radius: 0px 200px 200px 200px;*/
+    border-radius: 0 20px 20px 20px;
+    /*Sombras - 1 eje x - 2 eje y - 3 desenfocado - 4 color ( negativo cambia de lado )*/
+    box-shadow: 10px 10px 5px black;
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 1px solid red;
+
+}
+
+/* para los parrafos que estan dentro de caja*/
+.caja p{
+    /*para acomodar los margenes de arriba*/
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.grande{
+    color: green;
+    font-size: 100px;
+}

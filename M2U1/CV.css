@@ -1,0 +1,74 @@
+h2{
+    color: red;
+    font-family: 'Grape Nuts', cursive;
+    font-size: 50px;
+}
+.caja {
+    width: 600px;
+    height: 200px;
+    margin: 100px;
+    background: #278df6;
+    background: linear-gradient(175deg, #278df6 0%, #00aa98 80%);
+    background: -webkit-linear-gradient(175deg, #278df6 0%, #00aa98 80%);
+    background: -moz-linear-gradient(175deg, #278df6 0%, #00aa98 80%);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 30px 30px 30px 30px;
+    /*Sombras - 1 eje x - 2 eje y - 3 desenfocado - 4 color ( negativo cambia de lado )*/
+    box-shadow: 10px 10px 20px black;
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 1px solid red;
+
+}
+
+/* para los parrafos que estan dentro de caja*/
+.caja p{
+    margin: 0; /*para acomodar los margenes de arriba*/
+    font-family: 'Oswald', sans-serif;
+}
+
+.mediano{
+    color: blue;
+    font-size: 40px;
+}
+
+
+p{
+    color: orangered;
+    font-size: 20px;
+    line-height: 25px; /* espacio interlinea*/
+}
+
+/* Creación de Clases */
+.destacados1{
+    color: blue;
+    font-weight: bold; /* negrita*/
+    font-style: italic;
+    background-color: yellow;
+}
+
+.destacados2{
+    color: green;
+    font-weight: bold; /* negrita*/
+    font-style: italic;
+}
+
+.destacados3{
+    color: red;
+    font-weight: bold; /* negrita*/
+    font-style: italic;
+    size: 12px;
+}
+
+/* Div caja contenedora*/
+#amarillo{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(0, 217, 255);
+    margin-left: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
