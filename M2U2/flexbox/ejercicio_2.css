@@ -1,0 +1,50 @@
+.contenedor{
+    width: 300px;
+	height: 300px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;  /* Permite que los objetos cambien de posicion en el contenedor*/
+	margin: auto; /* en este caso acomoda el contenedor en el centro de la pagina*/
+    flex-direction: row-reverse; /* Pone los objetos del contenedor alineados en vertical */
+    align-items: center;  /* Alinea los objetos del contenedor en el margen derecho */
+}
+
+.uno{
+    font-size: 20px;
+	background-color: red;
+    color: white;
+    width: 100px;
+	height: 100px;
+	margin: 0px;
+    display: flex;
+    justify-content: center; /* alinea al centro horizontal */
+    align-items: center; /* alinea al centro vertical */
+
+}
+
+.dos{
+    font-size: 20px;
+	background-color: blue;
+    color: white;
+    width: 100px;
+	height: 100px;
+	margin: 0px;
+    display: flex;
+    justify-content: center; /* alinea al centro horizontal */
+    align-items: center; /* alinea al centro vertical */
+	
+}
+
+.tres{
+    font-size: 20px;
+	background-color: green;
+    color: white;
+    width: 100px;
+	height: 100px;
+	margin: 0px;
+    display: flex;
+    justify-content: center; /* alinea al centro horizontal */
+    align-items: center; /* alinea al centro vertical */
+
+	
+}

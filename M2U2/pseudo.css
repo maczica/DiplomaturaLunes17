@@ -1,0 +1,34 @@
+
+/* declaracion generica sino ahy que hacer una clase*/
+div{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+/*Cambia el color del div cuando el cursor esta arriba*/
+div:hover {
+  background-color: #F89B4D;
+}
+
+/* :first-child y :last-child */
+/* :nth-child()  */
+
+span{
+  background-color: yellow;
+  border:1px solid black;
+  padding: 10px;
+}
+
+/* acciona despues de la palabra seleccionada para span */
+span::after{
+ content: 'despues'; /* agrega esa palabra*/
+ background-color: red;
+} 
+
+/* acciona antes de la palabra seleccionada para span */
+span::before{
+ content: 'antes';
+ background-color: blue;
+}
