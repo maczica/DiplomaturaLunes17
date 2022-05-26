@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <style type="text/css">
+/*
+    La regla arroba @keyframes permite a los autores controlar los pasos 
+	intermedios en una secuencia de animación CSS mediante el establecimiento
+	de keyframes (o puntos de trayectoria) */
+        
+        .swing
+        {
+             margin:120px 150px;
+            
+             width:500px;
+            height:300px;
+            
+            background:#676470;
+            color:#fff;
+            
+            font-family:arial;
+            font-weight:900;
+            font-size:3.4em;
+            
+            text-align:center;
+             line-height:300px;
+            
+            transition:all 0.3s ease;
+            }
+
+      /*  Para obtener una lista de keyframe que sea válida, debe incluir 
+	  reglas para al menos los tiempos  0% (o desde) y 100% (o hacia)
+	  (o sea, los estados inicial y final de la animación).*/
+        
+         
+        @keyframes swing /* es el nombre de la animación */
+        {
+          /*  15% { transform: translateX(5px); }
+            
+            30% { transform: translateX(-5px); }
+            
+            50% { transform: translateX(3px); }
+            
+            65% { transform: translateX(-3px); }
+            
+            80% { transform: translateX(2px); }
+            
+            100% { transform: translateX(0); }  original */
+
+            15% { transform: translateX(5px); background-color: red;}
+            
+            30% { transform: translateX(-5px) rotate(90deg); background-color: blue;}
+            
+            50% { transform: translateX(3px); background-color: aqua;}
+            
+            65% { transform: translateX(-3px); background-color: yellow;}
+            
+            80% { transform: translateX(2px); background-color: green;}
+            
+            100% { transform: translateX(0); background-color: orange;}
+        }
+        
+        .swing:hover
+        {
+          animation: swing 1s ease; /* aca va el tiempo que demora en cada estado */
+          animation-iteration-count: 5; /* o Infinite */
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="swing">Swing</div>
+    
+</body>
+</html>
